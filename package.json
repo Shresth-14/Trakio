@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npm --prefix client run dev",
-    "build": "npm --prefix client run build",
+    "postinstall": "npm --prefix client install",
+    "build": "npm --prefix client run build && cp -r client/dist ./dist",
     "preview": "npm --prefix client run preview",
     "lint": "npm --prefix client run lint"
   }
