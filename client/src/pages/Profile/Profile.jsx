@@ -164,7 +164,12 @@ const Profile = () => {
         <div className="grid gap-6 px-6 py-8 sm:px-8 lg:grid-cols-3">
           <div className="lg:col-span-2">
             <div className="mb-6 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold text-white">Children</h2>
+              <div className="flex items-center gap-2.5">
+                <h2 className="text-2xl font-semibold text-white">Children</h2>
+                <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[11px] font-medium text-white/40">
+                  Demo Preview
+                </span>
+              </div>
               <button className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm font-medium text-white/80 hover:bg-white/10">
                 + Add Child
               </button>
@@ -175,8 +180,8 @@ const Profile = () => {
           <div className="space-y-6">
             <div className="rounded-2xl border border-white/10 bg-[#0f0f0f] p-5 backdrop-blur-xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-white/45">Status</p>
-              <p className="mt-3 text-2xl font-bold text-white">2 Children</p>
-              <p className="mt-2 text-sm text-emerald-300">All tracking active</p>
+              <p className="mt-3 text-2xl font-bold text-white">2 Profiles</p>
+              <p className="mt-2 text-sm text-amber-300">Live tracking coming soon</p>
             </div>
 
             <div className="rounded-2xl border border-red-700/20 bg-[#0f0f0f] p-5 backdrop-blur-xl">
