@@ -21,14 +21,14 @@ export default function AboutHero() {
     {
       id: 2,
       name: "Shresth Juyal",
-      role: "Backend Learner",
+      role: "Full Stack Developer",
       image: Alien,
       about: "Focused on scalable backend architecture, APIs, and performance optimization.",
     },
     {
       id: 3,
       name: "Yuvansh Juneja",
-      role: "Full Stack Learner",
+      role: "Full Stack Developer",
       image: Yuvi,
       about:"Designs elegant user experiences with strong attention to detail and storytelling.",
     }
